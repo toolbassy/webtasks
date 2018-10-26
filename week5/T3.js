@@ -4,7 +4,7 @@ function addStudent(){
     const tr=true;
    
     if(!name){
-        document.getElementById('name').style.border = "5px solid red";
+        document.getElementById('name').classList.add('error');
         t=false; 
     }
     if(!surname) {

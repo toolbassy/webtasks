@@ -1,5 +1,5 @@
 var img = document.querySelectorAll('img')
-for(var i = 0; i<img.length; i++){
+for(var i = 1; i<img.length; i++){
     img[i].addEventListener('click',changeImage);
 }
 
